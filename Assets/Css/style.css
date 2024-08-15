@@ -89,10 +89,12 @@ header img{
 .card-img-port {
     object-fit: cover;
     height: 300px; 
+    
 }
 
 .card-group {
     margin-top: 20px; 
+    max-height: 300px;
 }
 
 /* Footer */
