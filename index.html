@@ -5,25 +5,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae Francisco Muñoz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <script src="https://kit.fontawesome.com/873ff798e8.js" crossorigin="anonymous"></script>
    
 </head>
+
+
 <body>
-    <h1>Curriculum Vitae</h1>
-    <img src="./Assets/Img/Foto de instagram.JPG" alt="Imagen de instagram de Francisco Muñoz" title="Francisco Muñoz, Instagram" width="300">
-     <h2>Francisco Muñoz Jara</h2>
-        <h3>Acerca de mi</h3>
-              <p>Técnico Universitario en Mantenimiento Industrial, en busca de darle un giro a mi área profesional mediante la programación y generar un ingreso mas estable, además de adquirir conocimientos para desarrollar de mejor manera mi emprendimiento. Especial interés en continuar aprendiendo para decidir en que área especializarme finalmente. Me considero proactivo y rápido al momento de aprender, responsable y con disposición a ayudar a mis compañeros en caso de poder hacerlo. </p>
-        <h3>Información Personal</h3>
-            <ol>
-                <li>Nombre: Francisco Andrés Muñoz JAra</li>
-                <li>Fecha de nacimiento: 8 de Mayo de 1994</li>
-                <li>Nacionalidad: Chileno</li>
-                <li>Correo electrónico: munozjaraf@gmail.com</li>
-                <li>Licencia de conducir clase B: Vigente</li>
-            </ol>
-        <h3>Formación Académica</h3>
+
+
+<nav class="navbar navbar-expand-lg fixed-top border border-1 border-info">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Francisco Muñoz Jara</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#info">Información</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#exp">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./portafolio.html">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./forks.html">Forks</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>   
+
+<header class="pt-5 pb-1">
+      <div class="px-4 py-5 my-0 text-center">
+        <img class="d-block mx-auto mb-4" src="./Assets/Img/Yo2.jpeg" alt="" width="400px">
+        <div class="bg-header border border-2 border-info rounded-4">
+        <h1 class="display-5 fw-bold mt-1 mb-4">Francisco Muñoz Jara</h1>
+        <div class="col-lg-10 mx-auto">
+          <p class="lead mb-0 text-justify fw-bold">Técnico Universitario en Mantenimiento Industrial y emprendedor, en busca de darle un giro a mi área profesional mediante la programación.</p>
+          <p class="lead mb-4 fw-bold">Me considero proactivo y rápido al momento de aprender, responsable y con disposición a ayudar a mis compañeros en caso de poder hacerlo.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <a href="https://github.com/FranciscoMunozADS" target="_blank">
+            <button type="button" class="btn btn-info btn-lg px-4 gap-3 mb-4">
+                <i class="fa-brands fa-github fa-2x"></i> 
+            </button>
+        </a>
+        <a href="https://www.instagram.com/pankcho.m/" target="_blank">
+            <button type="button" class="btn btn-info btn-lg px-4 gap-3 mb-4">
+                <i class="fa-brands fa-instagram fa-2x"></i>
+            </button>
+        </a>
+        </div>
+          </div>
+        </div>
+      </div>
+</header>
+<section id="info">
+<div class="container-fluid border-2 border-top border-bottom border-info p-0">
+    <div class="flex-container">
+        <div class="container text-white mb-0 fondooscuro">
+            <h3 class="text-center pb-3">Información Personal</h3>
             <ul>
-                <li><h4>2024 | Bootcamp Desafío Latam</h4></li>
+                
+                <li class="p-3"><h4><i class="fa-regular fa-calendar-days"></i> Fecha de nacimiento:</h4>  8 de Mayo de 1994</li>
+                <li class="p-3"><h4><i class="fa-regular fa-flag"></i> Nacionalidad:</h4> Chileno</li>
+                <li class="p-3"><h4><i class="fa-solid fa-phone"></i> Teléfono:</h4> (+56)981572957</li>
+                <li class="p-3"><h4><i class="fa-regular fa-envelope"></i> Correo electrónico:</h4> munozjaraf@gmail.com</li>
+                <li class="p-3"><h4><i class="fa-solid fa-car"></i> Licencia de conducir clase B:</h4> Vigente</li>
+                
+        
+                         
+            </ul>
+        </div>
+        <div class="container text-white mb-0 fondoclaro fs-6">
+            <h3 class="text-center pb-3">Estudios</h3>
+            <ul>
+                <li><h4>Cursando (2024) | Bootcamp Desafío Latam</h4></li>
                     <p>Curso de Fullstack Javascript</p>
                     <p>Generación 83</p>
                 <li><h4>2015-2020 | Técnico universitario en Mantenimiento Industrial</h4></li>
@@ -32,41 +96,64 @@
                 <li><h4>2013-2014 | Ingeniería Civil (2 años)</h4></li>
                      <p>Universidad de Valparaíso</p>
                      <p>Valparaíso</p>
+                <li class="p-3"><h4 class="pb-2"><i class="fa-solid fa-language"></i> Idiomas</h4> 
+                    <p>Español nativo</p>
+                    <p>Inglés B2+, de acuerdo a CEFR (No Certificado)</p>
+                </li>
+                  
             </ul>
-        <h3>Antecedentes Laborales</h3>
-            <ul>
-                <li><h4>2020-Actualidad | Prestador de servicios independiente</h4></li>
-                    <p>Mecánico de mantención de máquinas de trabajo tales como bombas, compresores, cambios de aceite de vehículos privados.</p>
-                <li><h4>2021-Actualidad | Akus, Ajo negro</h4></li>
-                    <p>Fundador, productor y embalador de Ajos Negros, superalimento y producto culinario</p>
-                <li><h4>2018-2019 | Seming Ltda.</h4></li>
-                    <p>Mecánico de mantención de maquinaria de maestranza como soldadoras, máquinas plegadoras, grúas horquillas, guillotinas, etc.</p>
-            </ul>        
-        <h3>Habilidades</h3>
-            <ul>
-                <li><h4>Idiomas</h4></li>
-                    <ol>
-                        <li>Español Nativo</li>
-                        <li>Inglés B2+, de acuerdo a CEFR (No Certificado)</li>
-                    </ol>
-                <li><h4>Competencias en mantenimiento industrial</h4></li>
-                    <ol>
-                        <li>Soldadura al arco eléctrico</li>
-                        <li>Manejo de Software de especialidad: Fracctal
-                            <p>Software de mantenimiento inteligente para generar ordenes de trabajo y gestión de activos, con el fin de facilitar el trabajo y optimizar productividad</p>
-                        </li>
-                    </ol>    
-            </ul>
-        <h3>Otras cualidades y hobbies</h3>
-            <ul>
-                <li>Jardineria</li>
-                <li>Emprendimiento</li>
-                <li>Actividad fisica</li>
-                <li>Videojuegos</li>
-            </ul>
+        </div>
+    </div>
+</div>
+</section>
+<section id="exp">
+<div class="container pb-5 border-2 border-bottom border-info">
+    <h2 class="text-center mt-0 mb-5">Experiencia Laboral</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card bg-info">
+                <img src="./Assets/Img/tps.JPG" class="card-img-top" alt="Technical Public Services SA">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Technical Publications Services SA.</h5>
+                    <p class="card-text">Encargado de la corrección de boletines de servicio, manuales de mantención, para ser reenviados correctamente en inglés a General Electrics.</p>
+                </div>
+                <div class="card-footer fw-bold">
+                    2018
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-info">
+                <img src="./Assets/Img/seming.JPG" class="card-img-top" alt="Seming LTDA.">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Seming Ltda.</h5>
+                    <p class="card-text">Mecánico de mantención de maquinaria de maestranza como soldadoras, máquinas plegadoras, grúas horquillas, guillotinas, etc.</p>
+                </div>
+                <div class="card-footer fw-bold">
+                    2018 - 2019
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card bg-info">
+                <img src="./Assets/Img/ajo negro.JPG" class="card-img-top" alt="Akus">
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">Akus</h5>
+                    <p class="card-text">Fundador, productor y embalador de Ajos Negros, superalimento y producto culinario.</p>
+                </div>
+                <div class="card-footer fw-bold">
+                    2020 - Actualidad
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
-<h4><a href="./portafolio.html"> Ir a Portafolio</a></h4>
-<h4><a href="https://www.instagram.com/pankcho.m/" target="_blank">Instagram</a></h4>
-<h4><a href="" target="_blank">Proximamente Github</a></h4>
+<footer class="text-center text-light p-4">
+    <p class="mb-0">Francisco Muñoz Jara - ADL 2024 - Github Pages</p>    
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
