@@ -76,11 +76,20 @@ header img{
     justify-content: space-between;
     height: 450px;
 }
+
+/* CV */
+
 .card-img-top {
     object-fit: cover;
     height: 200px; 
 }
 
+/* Portafolio */
+
+.card-img-port {
+    object-fit: cover;
+    height: 300px; 
+}
 
 .card-group {
     margin-top: 20px; 
