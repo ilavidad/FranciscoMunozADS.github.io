@@ -8,13 +8,26 @@ nav{
     background-color: #111233;
 }
 
+
 /* Letra blanca en NavBar */
 
 .navbar-brand, .navbar-nav .nav-link {
     color: white; 
 }
-.navbar-brand:hover, .navbar-nav .nav-link:hover {
-    color: white; 
+.navbar-brand {
+    color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #17a2b8; 
+    transform: scale(1.1); 
+    text-decoration: solid; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #17a2b8;
+    text-decoration:solid; 
 }
 
 /* Icono blanco en NavBar */
@@ -48,6 +61,17 @@ header {
 
 header img{
     border-radius: 50%;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8; 
+}
+
+.btn-info:hover {
+    background-color: #d84b0f;
+    border-color: #d84b0f; 
+    transform: scale(1.05); 
 }
 
 /* Datos personales */
